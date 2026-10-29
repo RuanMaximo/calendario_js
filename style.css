@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: black;
+}
+#mes_texto {
+    font-size: 20px;
+    color: white;
+}
+.caixa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    color: white;
+}
+.ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+.semanas {
+    background-color: rgba(102, 250, 126, 0.5);
+    color: white;
+}
+.ctn-gray {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+.ctn-blue {
+    background-color: rgba(60, 60, 255, 0.5);
+}
+.dia-atual {
+    background-color: rgb(46, 46, 255);
+}
+.ctn-red {
+    background-color: rgba(255, 137, 137, 0.5);
+}
+.ctn-redbold{
+    background-color: rgb(255, 65, 65);
+}
